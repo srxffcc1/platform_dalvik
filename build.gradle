@@ -1,0 +1,20 @@
+group 'platform_dalvik'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'base'
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.4.0'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
